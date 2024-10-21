@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 10px 0 10px; /* Упрощенный отступ */
+}
+
+.content {
+  margin: 50px 50px 0 50px; /* Упрощенный отступ */
+  background-color: #f0f2f5; /* Цвет фона для контента */
+  border-radius: 5px; /* Добавим радиус для закругления углов */
+  padding: 20px; /* Отступы внутри контента */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Добавляем тень для глубины */
+}

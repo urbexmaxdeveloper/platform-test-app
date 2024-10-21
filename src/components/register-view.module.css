@@ -1,0 +1,17 @@
+/* ResizableTable.css */
+.resizable-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .resize-handle {
+    width: 10px; /* Ширина области для изменения размера */
+    cursor: col-resize; /* Изменяем курсор на "изменение размера" */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,46 @@
+.header{
+  display: flex;
+}
+
+.left-menu {
+  background-color: #001529; /* Темно-синий цвет для левой панели */
+  color: #fff; /* Белый текст для левой панели */
+}
+
+.left-menu .ant-drawer-header {
+  background: #001529; /* Цвет заголовка меню */
+}
+
+.left-menu .ant-btn {
+  background-color: #1890ff; /* Цвет кнопки открытия меню */
+  color: white; /* Цвет текста кнопки */
+}
+
+.left-menu .ant-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1); /* Эффект при наведении */
+}
+
+.left-menu .ant-menu-item-selected {
+  background: rgba(255, 255, 255, 0.2); /* Цвет для выбранного элемента */
+}
+
+.ant-breadcrumb {
+  margin: 16px 0; /* Отступы для хлебных крошек */
+}
+
+.ant-table {
+  border: 1px solid #e8e8e8; /* Граница таблицы */
+}
+
+/* Стили для заголовков таблицы */
+.react-resizable-handle {
+  width: 10px;
+  cursor: col-resize;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+
